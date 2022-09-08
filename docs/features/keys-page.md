@@ -1,10 +1,29 @@
+
 # Keys Page
 
-## Table of contents
-- [General Description](#general-description)
-- [Issues](#issues)
+This page show information about keys <br>
+and enables the user to manage them.
 
-## General Description
-The key management panel simply needs to show the user information on the keys they have saved (service + added time,) a list of import logs for those keys, an indication if that key is "dead"as well, as a button to "revoke" permissions, which deletes the key from the database.
+<br>
 
-## Issues
+## Information
+
+*Info shown for each key.*
+
+-   Timestamp of when the key was added
+
+-   What has been imported using the key
+
+-   Service to which the key belongs to
+
+-   Whether or not the key is 'dead'
+
+<br>
+<br>
+
+## Interaction
+
+Every key has a 'revoke' option <br>
+to remove it from the database.
+
+<br>
