@@ -1,10 +1,9 @@
+
 # Direct Messages
 
-## Table of contents
-- [General Description](#general-description)
-- [Issues](#issues)
+DM importing allows registered <br>
+accounts to import direct msgs.
 
-## General Description
-DM import allows for registered account to import DMs. Upon the start of an import the account can visit the separate page to approve/discard DMs fetched during import.
-
-## Issues
+At the start of an import event, the user <br>
+is able to visit a separate page to approve <br>
+or discard msgs fetched during the import.
