@@ -1,27 +1,66 @@
+
 # Development Mode
 
-## Table of contents
-- [General Description](#general-description)
-- [Issues](#issues)
+This mode provides a way to create a dev environment <br>
+from scratch for ease of development and testing.
 
-## General Description
-Development mode provides a way to create a dev environment from scratch for ease of development and testing.
+<br>
+<br>
 
-### Location
-Development-only files live in their `development` folder, located in the root of a project, which exposes its own exported modules in its index file. Only exports declared within in are allowed to be imported outside and only do it conditionally by checking for the presence of development environment variable beforehand.
-The folder structure follows the same logic as `src` folder, i.e. it can have its own `lib`, `endpoints`, `types` and even `internals` folders.
+## Location
+
+Development-only files live in their `development` folder, <br>
+located in the root of a project, which exposes its own <br>
+exported modules in its index file.
+
+Only exports declared within are allowed to be imported <br>
+outside and only do it conditionally by checking for the <br>
+presence of development environment variable beforehand.
+
+The folder structure follows the same logic as the <br>
+`src` folder, in that it can have its own `lib`, `endpoints`, <br>
+`types` and even `internals` folders.
+
 The server also provides `/development` endpoint, which allows to access various features.
 
-### Features
+<br>
+<br>
 
-#### Test entries
-Generates test entries in the database. There are two mechanisms for generation:
-- Seeded
-- Random
+## Features
 
-Seeded generation outputs the same result each use and therefore should error out on the second use. The main usecase is to populate the initial test database.
-Random generation allows to create new random entries regardless of circumstances. The main usecase is to add random entries of any table during development process.
+<br>
+
+### Test Entries
+
+Test entries can be generated with <br>
+the following two mechanisms.
+
+<br>
+
+#### Seeded
+
+Uses a seed to generate the same result with <br>
+each use, it thus should error on the second use.
+
+*It is used to populate the initial test database.*
+
+<br>
+
+#### Random
+
+Creates random new entries regardless of circumstances.
+
+*Used to add random entries in any table during development.*
+
+<br>
+<br>
 
 ## Issues
 
-- Due to some underlying changes of importing process the test import doesn't work
+<br>
+
+-   Due to some underlying changes of the <br>
+    importing process the test import does <br>
+    not work.
+
+<br>
