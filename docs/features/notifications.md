@@ -1,10 +1,6 @@
+
 # Notifications
 
-## Table of contents
-- [General Description](#general-description)
-- [Issues](#issues)
+This feature allows users to transmit information.
 
-## General Description
-Notifications allow to send various information to users.
-
-## Issues
+<br>
