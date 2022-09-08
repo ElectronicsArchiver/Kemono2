@@ -1,25 +1,50 @@
+
 # Accounts
 
-## Table of contents
-- [General Description](#general-description)
-- [Issues](#issues)
+<br>
 
-## General Description
+## Creation
 
-### Creation
+A visitor can create an account, which <br>
+gives them the following abilities.
 
-A visitor can create an account, which allows him to favourite posts and artists, get notifications and get assigned a role.
+<br>
 
-### Roles
-#### Consumer
-The base role for any fresh account.
+-   Favorite posts & artists
 
-#### Administrator
-The first registered account of the instance gets this role. Administrator can change the role of other accounts, of which they get notified.
+-   Receive notifications
 
-### Features:
-#### Session Key Management
+-   Be assigned a role
 
-Accounts can access the page which lists all keys set up for autoimport and revoke any of them.
+<br>
+<br>
 
-## Issues
+## Roles
+
+<br>
+
+-   #### Consumer
+
+    The base role for any new account.
+    
+    <br>
+
+-   #### Administrator
+
+    The first registered account of <br>
+    the instance is assigned this role.
+    
+    The administrator can change the role of <br>
+    other accounts, of which they get notified.
+
+<br>
+<br>
+
+## Features
+
+<br>
+
+### Session Key Management
+
+Accounts can access the page which lists all keys <br>
+set up for auto-import and revoke any of them.
