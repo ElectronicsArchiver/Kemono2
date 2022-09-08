@@ -1,22 +1,75 @@
+
 # TODOs
+
+<br>
 
 ## Server
 
+<br>
+<br>
+
 ## Archiver
-- Make dev file import work
+
+<br>
+
+-   Make dev file import work
+
+<br>
+<br>
 
 ## Client
+
 ### Webpack
-- SASS uses its own module name resolution mechanism which differs from the current webpack setup. Specifically `config.resolve.alias` rules will not apply to filenames in `@use "";` expression.
-- Figure out how to pass env variables to stylesheets.
-- Figure out how to set up source maps for production.
+
+<br>
+
+-   SASS uses its own module name resolution <br>
+    mechanism which differs from the current <br>
+    webpack setup.
+
+    Specifically `config.resolve.alias` rules <br>
+    will not apply to filenames in `@use "";` <br>
+    expression.
+    
+    <br>
+
+-   Figure out how to pass env variables to stylesheets.
+
+    <br>
+
+-   Figure out how to set up source maps for production.
+
+<br>
+
 ### HTML/Templates
-- Find a way to nest macro calls.
+
+<br>
+
+-   Find a way to nest macro calls
+
+<br>
+
 #### `user.html`
-- AJAX search.
+
+<br>
+
+-   AJAX search
+
+<br>
 
 #### `import` pages
-- consolidate them into a single page, since most of them are just placeholders for AJAX scripts.
+
+<br>
+
+-   Consolidate them into a single page, since most <br>
+    of them are just placeholders for AJAX scripts.
+
+<br>
 
 ### CSS
+
+<br>
+
 ### JS
+
+<br>
