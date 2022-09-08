@@ -17,11 +17,12 @@ Only exports declared within are allowed to be imported <br>
 outside and only do it conditionally by checking for the <br>
 presence of development environment variable beforehand.
 
-The folder structure follows the same logic as the <br>
-`src` folder, in that it can have its own `lib`, `endpoints`, <br>
+The folder structure follows the same logic as the `src` <br>
+folder, in that it can have its own `lib`, `endpoints`, <br>
 `types` and even `internals` folders.
 
-The server also provides `/development` endpoint, which allows to access various features.
+The server also provides the `/development` <br>
+endpoint, giving access to various features.
 
 <br>
 <br>
