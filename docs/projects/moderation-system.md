@@ -1,39 +1,57 @@
+
 # Moderation System
 
-## Table of contents
-- [General Description](#general-description)
-- [Interfaces](#interfaces)
-- [Technical Description](#technical-description)
-- [Process](#process)
-- [Issues](#issues)
+The moderation system gives certain users with the role <br>
+of  `moderator`  the ability to perform supportive tasks.
 
-## General Description
-The moderation system allows certain users ("moderators") chosen by the administrator user to perform various tasks.
+The role is given by administrative users.
+
+<br>
 
 ## Interfaces
-```typescript
+
+```TypeScript
 interface Action {
-  id: string
-  account_id: string
-  type: string
-  categories: string[]
-  /**
-   * A list of resource `id`s affected by the action.
-   */
-  entity_ids: string[]
-  status: "completed" | "failed" | "reverted"
-  created_at: Date
+    
+    categories : string []
+    account_id : string
+    type : string
+    id : string
+    
+    /**
+     *  A list of resource `id`s
+     *  affected by the action.
+     */
+    
+    entity_ids : string[]
+    
+    created_at : Date
+    status : 'completed' | 'failed' | 'reverted'
 }
 ```
 
-## Technical Description
-
+<br>
+<br>
 
 ## Process
 
 ### Moderator
-1. When the role of an account changes to `moderator`, the account gets notified of this.
-1. The account then can access `/mod` endpoint, which leads to the moderator dashboard. On this page the mod can see various stats, among them is the list of various `tasks`.
-1. Each performed `task` results in an `action`.
 
-## Issues
+<br>
+
+1.  When the role of an account changes <br>
+    to `moderator`, they are notified of this.
+    
+    <br>
+
+2.  The account is henceforth able to access the `/mod` <br>
+    endpoint, which leads to the moderator dashboard.
+
+    On this page the they can see various <br>
+    statistics, among them is the `tasks` list.
+
+    <br>
+
+3.  Each performed `task` results in an `action`.
+
+<br>
