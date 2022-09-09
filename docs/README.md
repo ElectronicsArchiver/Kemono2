@@ -34,15 +34,15 @@
 
 <!----------------------------------------------------------------------------->
 
-[Direct Message Imports]: Features/Direct%20Message%20Imports.md
+[Direct Message Imports]: Features/Direct%20Message%20Import.md
 [Development Mode]: Features/Development%20Mode.md
 [Redis Sharding]: Features/Redis%20Sharding.md
 [Notifications]: Features/Notifications.md
 [Keys Page]: Features/Keys%20Page.md
 [Accounts]: Features/Accounts.md
 
-[Moderation System]: Features/Moderation%20System.md
-[File Upload]: Features/File%20Upload.md
+[Moderation System]: Projects/Moderation%20System.md
+[File Upload]: Projects/File%20Upload.md
 
 
 <!---------------------------------[ Buttons ]--------------------------------->

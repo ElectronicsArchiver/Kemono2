@@ -39,7 +39,7 @@
 
 [Website]: https://kemono.party/
 
-[Documentation]: docs/Documentation.md
+[Documentation]: docs
 [Develop]: docs/Develop.md
 [Setup]: docs/Setup.md
 [FAQ]: docs/FAQ.md
